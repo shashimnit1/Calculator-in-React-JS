@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import Calculator from "./Calculator.jsx"
 import './App.css';
 
 function App() {
+  const OuterBox = {
+    width: "100vw",
+    height: "80vh",
+    padding: "5pt",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent:"space-arround",
+    flexWrap: "wrap",
+    border: "2pt solid black",
+    //border: "2pt solid #f04115"
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={OuterBox}> 
+    <Calculator />
     </div>
   );
 }

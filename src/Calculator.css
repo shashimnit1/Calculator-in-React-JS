@@ -1,0 +1,103 @@
+.button {
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    width: 50px;
+    height: 40px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 5px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:active {
+    background-image: linear-gradient(#0dccea, #f04115);
+    font-weight: bold;
+}
+
+.box {
+    background-color: #7c8aff;
+    width: 30%vw;
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20;
+    box-shadow: 0 8px 10px -5px rgb(0 0 0 / 16%), 0 16px 24px 2px rgb(0 0 0 / 11%), 0 6px 30px 5px rgb(0 0 0 / 10%);
+}
+
+.box1 {
+    width: 21vw;
+    height: fit-content;
+    padding: 2pt;
+    display: flex;
+    //border: 2pt solid black;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Inbox {
+    width: 20vw;
+    height: fit-content;
+    border-radius: 6px;
+
+    display: flex;
+    background-color: black;
+    //border: 2pt solid black;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    background-color: #ffdaec;
+}
+
+
+input {
+    width: 244px;
+    height: 30px;
+    border: 0px solid #080808;
+    font-size: 12px;
+    background-color: black;
+    color: #f4f6f8;
+    font-weight: bold;
+    text-align: right;
+
+
+}
+
+/* input {
+    width: 250px;
+    height: 20px;
+    //padding: 5px 12px;
+    font-size: 12px;
+    //line-height: 20px;
+    color: #ebeff3;
+    font-weight: bold;
+    //vertical-align: middle;
+    background-color: #1d1a1a;
+    background-repeat: no-repeat;
+    //background-position: right 8px center;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+
+    :focus {
+        border-color: #0366d6;
+        outline: none;
+        box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    }
+
+} */
