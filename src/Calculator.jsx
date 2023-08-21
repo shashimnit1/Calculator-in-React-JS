@@ -57,8 +57,8 @@ const Calculator = () => {
         <>
             <div className="box">
                 <div className="Inbox">
-                    <input style={{ fontSize: "18px" }} type="text" value={exp2}></input>
-                    <input type="text" value={exp1}></input>
+                    <input style={{ fontSize: "1.8rem" }} type="text" value={exp2}></input>
+                    <input style={{ fontSize: "1.2rem" }} type="text" value={exp1}></input>
                 </div>
                 <div className="box1">
                     {buttons.map((currentElement, index) => {
@@ -66,12 +66,7 @@ const Calculator = () => {
                     })
                     }
                 </div>
-
-
-
             </div>
-
-
         </>
     );
 }

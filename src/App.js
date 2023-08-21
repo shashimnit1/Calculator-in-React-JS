@@ -6,13 +6,13 @@ function App() {
   const OuterBox = {
     width: "100vw",
     height: "80vh",
-    padding: "5pt",
+    padding: ".5rem",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    justifyContent:"space-arround",
+    justifyContent:"center",
     flexWrap: "wrap",
-    border: "2pt solid black",
+    //border: ".2rem solid black",
     //border: "2pt solid #f04115"
   };
   return (

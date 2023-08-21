@@ -1,17 +1,52 @@
+html{
+    font-size: 62.5%;
+  }
+  /* Smallest Devices */
+  @media screen and (max-width: 57.5rem) {
+    html {
+      font-size: 30%;
+    }
+  }
+  /* Small devices (landscape phones, 57.6rem and up) */
+  @media screen and (min-width: 57.6rem) {
+    html {
+      font-size: 48%;
+    }
+   }
+  /* Medium devices (tablets, 76.8rem and up) */
+  @media screen and (min-width: 76.8rem) {
+    html {
+      font-size: 64%;
+    }
+   }
+  /* Large devices (desktops, 99.2rem and up) */
+  @media screen and (min-width: 99.2rem) {
+    html {
+      font-size: 82.66%;
+    }
+    }
+  /* Extra large devices (large desktops, 120.0rem and up) */
+  @media (min-width: 120.0rem) {
+    html {
+      font-size: 100%;
+    }
+  }
+  
+
 .button {
     background-image: linear-gradient(#0dccea, #0d70ea);
-    width: 50px;
-    height: 40px;
+    width: 5.0rem;
+    height: 4.0rem;
     border: 0;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    border-radius: .4rem;
+    box-shadow: rgba(0, 0, 0, .3) 0 .5rem 1.5rem;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
     font-family: Montserrat, sans-serif;
-    font-size: .9em;
-    margin: 5px;
-    padding: 10px 5px;
+    font-size: 1.6rem;
+    margin: .5rem;
+    padding: 1.0rem .5rem;
     text-align: center;
     user-select: none;
     -webkit-user-select: none;
@@ -26,34 +61,36 @@
 .box {
     background-color: #7c8aff;
     width: 30%vw;
+    min-width: 30rem;
     height: fit-content;
-    padding: 5px;
+    padding: .5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 20;
-    box-shadow: 0 8px 10px -5px rgb(0 0 0 / 16%), 0 16px 24px 2px rgb(0 0 0 / 11%), 0 6px 30px 5px rgb(0 0 0 / 10%);
+    box-shadow: 0 .8rem 1.0rem -.5rem rgb(0 0 0 / 16%), 0 1.6rem 2.4rem .2rem rgb(0 0 0 / 11%), 0 .6rem 3.0rem .5rem rgb(0 0 0 / 10%);
+    border: 2pt solid red;
 }
 
 .box1 {
-    width: 21vw;
+    width: 29rem;
     height: fit-content;
-    padding: 2pt;
+    padding: .2rem;
     display: flex;
-    //border: 2pt solid black;
+    //border: .2rem solid black;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
 
 .Inbox {
-    width: 20vw;
+    width: 29rem;
     height: fit-content;
-    border-radius: 6px;
+    border-radius: .6rem;
 
     display: flex;
     background-color: black;
-    //border: 2pt solid black;
+    //border: .2rem solid black;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -65,10 +102,10 @@ body {
 
 
 input {
-    width: 244px;
-    height: 30px;
-    border: 0px solid #080808;
-    font-size: 12px;
+    width: 24.4rem;
+    height: 3.0rem;
+    border: 0rem solid #080808;
+    font-size: 1.2rem;
     background-color: black;
     color: #f4f6f8;
     font-weight: bold;
@@ -78,26 +115,26 @@ input {
 }
 
 /* input {
-    width: 250px;
-    height: 20px;
-    //padding: 5px 12px;
-    font-size: 12px;
-    //line-height: 20px;
+    width: 250rem;
+    height: 20rem;
+    //padding: 5rem 12rem;
+    font-size: 12rem;
+    //line-height: 20rem;
     color: #ebeff3;
     font-weight: bold;
     //vertical-align: middle;
     background-color: #1d1a1a;
     background-repeat: no-repeat;
-    //background-position: right 8px center;
-    border: 1px solid #e1e4e8;
-    border-radius: 6px;
+    //background-position: right 8rem center;
+    border: 1rem solid #e1e4e8;
+    border-radius: 6rem;
     outline: none;
-    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+    box-shadow: rgba(225, 228, 232, 0.2) 0rem 1rem 0rem 0rem inset;
 
     :focus {
         border-color: #0366d6;
         outline: none;
-        box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+        box-shadow: rgba(3, 102, 214, 0.3) 0rem 0rem 0rem 3rem;
     }
 
 } */
